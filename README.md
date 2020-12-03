@@ -16,14 +16,13 @@ possa comer ao mesmo tempo (garantindo assim a multiprogramação), mas sem perm
 
                                             [coloca o gif aqui]
 
-O algoritmo se resume ao código <nome_do_código>. Ele tem alguns comentários com o intuito de auxiliar no entendimento 
-do funcionamento do código. Confere lá =).
+O algoritmo se resume ao código jantar_dos_filosofos.c>. Ele tem alguns comentários com o intuito de auxiliar no entendimento do que é feito. Confere lá =).
 
 # :gear: Como usar
-Para gerar o executável do algoritmo na sua máquina, basta abrir o prompt de comando no diretório do arquivo e 
+Para gerar o executável do algoritmo na sua máquina, basta abrir o prompt de comando ou terminal no diretório do arquivo e 
 executar o comando:
 
-Windows:
+Windows: `gcc nome_do_codigo.c -"lpthread"`
 
-Linux: 
+Linux: `gcc pthread -o nome_do_arquivo nome_do_arquivo.c`
 
