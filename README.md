@@ -12,7 +12,7 @@ os dois garfos a sua volta), com fome (ele quer comer, porém não pode pois nã
 A ideia era desenvolver um algoritmo que resolvesse o problema do jantar dos filósofos de forma que mais de um filósofo
 possa comer ao mesmo tempo (garantindo assim a multiprogramação), mas sem permitir que eles sejam vizinhos (garantindo assim o acesso restrito ao recurso compartilhado, os garfos, evitando possíveis condições de corrida). Para demonstrar de maneira visual o funcionamento o programa da maneira como foi pedido, resolvi gerar como saída do código o print de uma lista circular com o estado de cada filósofo. Dá uma olhada em como ficou:
 
-                                            [coloca o gif aqui]
+![Screenshot](execucao.PNG)
 
 O algoritmo se resume ao código jantar_dos_filosofos.c>. Ele tem alguns comentários com o intuito de auxiliar no entendimento do que é feito. Confere lá :smiley:.
 
